@@ -16,7 +16,7 @@ import { BsBell } from "react-icons/bs";
 import { HiOutlineUserCircle } from "react-icons/hi";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import PaymentLink from '../Paymentlink/PaymentLink';
-export default function Dashboard(props) {
+function  Dashboard (props) {
   const Item = [
     {
       title: "OVERVIEW",
@@ -77,9 +77,10 @@ export default function Dashboard(props) {
         </div>
 
 
-        
+
         <PaymentLink />
       </div>
     </div>
   )
 }
+export default Dashboard
