@@ -43,6 +43,7 @@
   font-size: 15px;
   font-weight: 500;
   color: #f8f8f8;
+  cursor: pointer;
 }
 
 .Paymentlink_head_buttom {
@@ -99,4 +100,5 @@
   justify-content: space-between;
   text-decoration: underline;
   color: rgb(61, 60, 60);
+  cursor: pointer;
 }
