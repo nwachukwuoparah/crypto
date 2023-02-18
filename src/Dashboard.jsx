@@ -15,7 +15,7 @@ import { BiDockBottom } from "react-icons/bi";
 import { BsBell } from "react-icons/bs";
 import { HiOutlineUserCircle } from "react-icons/hi";
 import { MdKeyboardArrowDown } from "react-icons/md";
-import PaymentLink from '../Paymentlink/PaymentLink';
+import PaymentLink from './Paymentlink/PaymentLink';
 function  Dashboard (props) {
   const Item = [
     {
