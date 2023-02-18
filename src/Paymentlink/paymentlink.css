@@ -24,12 +24,14 @@
   padding-top: 40px;
   border-bottom: 1px solid rgba(128, 128, 128, 10%);
 }
-.title{
+
+.title {
   display: flex;
   flex-direction: column;
   gap: 10px;
   color: rgb(60, 59, 59);
 }
+
 .Paymentlink_head_top button {
   display: flex;
   align-items: center;
@@ -83,9 +85,10 @@
 .active {
   display: flex;
   align-items: center;
-  background-color: rgba(3, 160, 3, 24%);
+  background-color: rgba(2, 246, 2, 20%);
   padding: 2px 5px;
   border-radius: 20px;
+  color: rgb(4, 133, 4);
 }
 
 .Links_navs {
