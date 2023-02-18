@@ -20,13 +20,13 @@ export default function PaymentLink(props) {
           <div className='Paymentlink_head_buttom'>
             <div className='Paymentlink_head_buttom_left'>
               <p>Link Title</p>
-              <p>Type</p>
+              <p style={{width:60}}>Type</p>
             </div>
 
 
             <div className='Paymentlink_head_buttom_left'>
               <p>Amount</p>
-              <p>Status</p>
+              <p style={{width:60}}>Status</p>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@ export default function PaymentLink(props) {
             </div>
           </div>
           <div className='Links_navs'>
-            <p>Preview link</p>
+            <p style={{color:'#7139CD'}} >Preview link</p>
             <p>Copy link</p>
             <p>Manage link</p>
           </div>
