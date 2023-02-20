@@ -1,5 +1,6 @@
 import React from 'react'
 import './dashboard.css'
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Sidebar from './SIDE_BAR/Sidebar'
 import { MdHome } from "react-icons/md";
 import { BiCoinStack } from "react-icons/bi";
@@ -16,7 +17,8 @@ import { BsBell } from "react-icons/bs";
 import { HiOutlineUserCircle } from "react-icons/hi";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import PaymentLink from './Paymentlink/PaymentLink';
-function  Dashboard (props) {
+import Newlink from './NEW_LINK/Newlink';
+function Dashboard(props) {
   const Item = [
     {
       title: "OVERVIEW",
@@ -75,10 +77,10 @@ function  Dashboard (props) {
             </div>
           </div>
         </div>
-
-
-
-        <PaymentLink />
+        <Routes>
+          <Route path={'/'} element={<PaymentLink />} />
+          <Route path={'/newlink'} element={<Newlink />} />
+        </Routes>
       </div>
     </div>
   )

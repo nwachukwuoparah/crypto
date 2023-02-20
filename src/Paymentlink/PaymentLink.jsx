@@ -1,8 +1,9 @@
 import './paymentlink.css'
 import React from 'react'
 import { RxDotFilled } from "react-icons/rx";
+import { useNavigate } from 'react-router-dom';
 export default function PaymentLink(props) {
-
+  const navigate = useNavigate()
 
   return (
     <div className='Paymentlink'>
@@ -14,19 +15,19 @@ export default function PaymentLink(props) {
               <h1>Payment Links</h1>
               <p>You have generated 5 payment links</p>
             </div>
-            <button>Create new link</button>
+            <button onClick={() => { navigate('/newlink') }}  >Create new link</button>
           </div>
 
           <div className='Paymentlink_head_buttom'>
             <div className='Paymentlink_head_buttom_left'>
               <p>Link Title</p>
-              <p style={{width:60}}>Type</p>
+              <p style={{ width: 60 }}>Type</p>
             </div>
 
 
             <div className='Paymentlink_head_buttom_left'>
               <p>Amount</p>
-              <p style={{width:60}}>Status</p>
+              <p style={{ width: 60 }}>Status</p>
             </div>
           </div>
         </div>
@@ -48,7 +49,7 @@ export default function PaymentLink(props) {
             </div>
           </div>
           <div className='Links_navs'>
-            <p style={{color:'#7139CD'}} >Preview link</p>
+            <p style={{ color: '#7139CD' }} >Preview link</p>
             <p>Copy link</p>
             <p>Manage link</p>
           </div>
