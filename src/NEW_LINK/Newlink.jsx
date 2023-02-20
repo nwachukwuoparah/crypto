@@ -2,8 +2,9 @@ import './newlink.css'
 import React from 'react'
 import { RxCross2 } from "react-icons/rx";
 import { CgImage } from "react-icons/cg";
+import { useNavigate } from 'react-router-dom';
 export default function Newlink(props) {
-
+  const navigate = useNavigate()
 
   return (
     <div className='newlink'>
@@ -11,7 +12,7 @@ export default function Newlink(props) {
       <div className='newlink_top'>
         <div className='newlink_top_wrap'>
           <div className='newlink_top_text'>
-            <RxCross2 fontSize={25} />
+            <RxCross2 fontSize={25} onClick={ ()=>{navigate('/')}} />
             <h2>Create new payment link</h2>
           </div>
           <button className='newlink_top_button'>Create Link</button>
