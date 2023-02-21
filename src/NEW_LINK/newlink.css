@@ -4,13 +4,12 @@
 
 .newlink {
   width: 100%;
-  height: 93%;
-  margin-top: 50px;
+  height: 92%;
 }
 
 .newlink_top {
   width: 100%;
-  height: 10%;
+  height: 11%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,8 +59,9 @@
   height: 90%;
   display: flex;
   flex-wrap: wrap;
+  /* background-color: red; */
 }
-
+/* ########################################################## */
 .newlink_left {
   height: 100%;
   width: 45%;
@@ -141,19 +141,18 @@ textarea {
   outline: none;
 }
 
-
+/* 3433############################## */
 
 .newlink_right {
   width: 55%;
   height: 100%;
   display: flex;
   align-items: center;
-  /* background-color: rgb(203, 201, 201); */
 }
 
 .newlink_right_wrap {
   width: 85%;
-  min-height: 92%;
+  min-height: 90%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -231,6 +230,9 @@ textarea {
 }
 
 @media screen and (max-width:425px) {
+  .newlink {
+    margin-top: 50px;
+  }
   .newlink_top {
     width: 100%;
     height: 10%;
@@ -277,7 +279,7 @@ textarea {
   }
 
   .newlink_left {
-    height: 100%;
+    /* height: 100%; */
     width: 95%;
     display: flex;
     flex-wrap: wrap;
@@ -348,7 +350,6 @@ textarea {
     width: 100%;
     font-size: 13px;
     gap: 25px;
-    /* background-color: grey; */
   }
 
   .newlink_right_top_file {
@@ -384,6 +385,9 @@ textarea {
 }
 
 @media screen and (max-width:375px) {
+  .newlink {
+    margin-top: 50px;
+  }
   .newlink_top {
     width: 100%;
     height: 10%;
@@ -501,7 +505,6 @@ textarea {
     width: 100%;
     font-size: 13px;
     gap: 25px;
-    /* background-color: grey; */
   }
 
   .newlink_right_top_file {
@@ -538,6 +541,9 @@ textarea {
 
 
 @media screen and (max-width:320px) {
+  .newlink {
+    margin-top: 50px;
+  }
   .newlink_top {
     width: 100%;
     height: 10%;
@@ -655,7 +661,6 @@ textarea {
     width: 100%;
     font-size: 13px;
     gap: 25px;
-    /* background-color: grey; */
   }
 
   .newlink_right_top_file {
@@ -675,10 +680,6 @@ textarea {
     width: 190px;
     line-height: 23px;
   }
-
-
-
-
   .form {
     width: 95%;
     padding: 0px 5px;

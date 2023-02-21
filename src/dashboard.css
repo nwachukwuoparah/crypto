@@ -14,8 +14,9 @@
 .Dashboard_contain {
   width: 100%;
   height: 100vh;
-  display: flex;
-  background-color: #f8f8f8;
+  display: flex; background-color: #f8f8f8;
+  /* background-color: #d73f3f; */
+ 
 }
 
 .Dashboard_left {
@@ -27,7 +28,7 @@
 }
 
 .Dashboard_rigth {
-  width: 80%;
+  width: 100%;
   height: 100vh;
 }
 

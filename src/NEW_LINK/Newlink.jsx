@@ -65,8 +65,6 @@ export default function Newlink(props) {
         </div>
 
 
-
-
         <div className='newlink_right'>
           <div className='newlink_right_wrap'>
             <div className='newlink_right_text'>
