@@ -21,15 +21,17 @@ export default function PaymentLink(props) {
           <div className='Paymentlink_head_buttom'>
             <div className='Paymentlink_head_buttom_left'>
               <p>Link Title</p>
-              <p style={{ width: 60 }}>Type</p>
+              <p className='Paymentlink_head_buttom_left_P'>Type</p>
             </div>
 
 
             <div className='Paymentlink_head_buttom_left'>
               <p>Amount</p>
-              <p style={{ width: 60 }}>Status</p>
+              <p className='Paymentlink_head_buttom_left_P'>Status</p>
             </div>
           </div>
+
+          
         </div>
         <div className='Links_cont'>
           <div className='Links'>
@@ -40,7 +42,7 @@ export default function PaymentLink(props) {
             <div className='Paymentlink_head_buttom_left'>
               <div>
                 <p>KES 30,405.02</p>
-                <p style={{ fontSize: 14 }}>Fixed</p>
+                <p className='Paymentlink_head_buttom_left_P1'>Fixed</p>
               </div>
               <div className='active'>
                 <RxDotFilled color={'green'} />
@@ -48,11 +50,11 @@ export default function PaymentLink(props) {
               </div>
             </div>
           </div>
-          <div className='Links_navs'>
+          {/* <div className='Links_navs'>
             <p style={{ color: '#7139CD' }} >Preview link</p>
             <p>Copy link</p>
             <p>Manage link</p>
-          </div>
+          </div> */}
         </div>
 
       </div>

@@ -17,7 +17,6 @@ export default function Newlink(props) {
           </div>
           <button className='newlink_top_button'>Create Link</button>
         </div>
-
       </div>
 
 
@@ -42,6 +41,8 @@ export default function Newlink(props) {
 
               </div>
             </div>
+
+
             <div className='newlink_left_wrap_bottom'>
               <label className='label'>
                 <p>Link title</p>
@@ -105,7 +106,6 @@ export default function Newlink(props) {
                   <input type="text" />
                 </label>
                 <label className='newlink_right_label'>
-                  <p>Amount</p>
                   <input type="text" />
                 </label>
               </div>
