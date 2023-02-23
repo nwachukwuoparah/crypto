@@ -15,7 +15,7 @@ export default function Newlink(props) {
             <RxCross2 fontSize={25} onClick={ ()=>{navigate('/')}} />
             <h2>Create new payment link</h2>
           </div>
-          <button className='newlink_top_button'>Create Link</button>
+          <button className='newlink_top_button'  onClick={()=>{navigate('/coinStore')}} >Create Link</button>
         </div>
       </div>
 

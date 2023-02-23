@@ -18,6 +18,7 @@ import { HiOutlineUserCircle } from "react-icons/hi";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import PaymentLink from './Paymentlink/PaymentLink';
 import Newlink from './NEW_LINK/Newlink';
+import CoinStore from './COIN_STORE/Coin_store';
 function Dashboard(props) {
   const Item = [
     {
@@ -80,6 +81,7 @@ function Dashboard(props) {
         <Routes>
           <Route path={'/'} element={<PaymentLink />} />
           <Route path={'/newlink'} element={<Newlink />} />
+          <Route path={'/coinStore'} element={<CoinStore />} />
         </Routes>
       </div>
     </div>
