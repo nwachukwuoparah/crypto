@@ -7,14 +7,27 @@
 .coinStore_top {
   width: 100%;
   height: 10%;
-  background-color: rgb(205, 202, 202);
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(232, 228, 228);
 }
+
+.coinStore_top_nav {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  gap: 10px;
+
+}
+
+
 
 
 .coinStore_bottom {
   width: 100%;
   height: 90%;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .coinStore_bottom_left {
@@ -63,25 +76,31 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
   padding: 5px 10px;
   border: 1px solid rgb(220, 216, 216);
   border-radius: 5px;
 }
 
 
-.coinStore_bottom_left_top_wrap_bottom {
+.coinStore_bottom_left_top_bottom {
   width: 90%;
   gap: 15px;
   display: flex;
   align-items: center;
 }
 
-.coinStore_bottom_left_top_wrap_bottom p {
+.coinStore_bottom_left_bottom_P {
+  width: 95%;
+  font-size: 12px;
+}
+
+.coinStore_bottom_left_top_bottom_P {
   display: flex;
   align-items: center;
   padding: 0px 10px;
   justify-content: center;
-  background-color: rgba(128, 128, 128,15%);
+  background-color: rgba(128, 128, 128, 15%);
   height: 30px;
   border-radius: 3px;
   overflow-x: hidden;
@@ -92,6 +111,9 @@
   height: 30px;
   border-radius: 5px;
   border: 1px solid rgb(215, 213, 213);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .coinStore_bottom_left_middle {
@@ -141,14 +163,311 @@
 
 
 
-
-
-
-
-
-
-
 .coinStore_bottom_rigth {
   width: 60%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coinStore_bottom_rigth_wrap {
+  width: 92%;
+  height: 100%;
+}
+
+.coinStore_bottom_rigth_wrap_top {
+  height: 86%;
+  margin-top: 40px;
+}
+
+.coinStore_bottom_rigth_wrap_top_status_wrap {
+  height: 94%;
+  overflow-y: scroll;
+}
+
+.coinStore_bottom_rigth_wrap_top_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 7%;
+}
+
+.coinStore_bottom_rigth_wrap_top_sort {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 5px 10px;
+  border: 1px solid rgb(199, 197, 197);
+  border-radius: 5px;
+}
+
+.coinStore_bottom_rigth_wrap_top_status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  border-bottom: 1px solid rgb(232, 228, 228);
+  padding-bottom: 10px;
+}
+
+.coinStore_bottom_rigth_wrap_top_status_text1 p {
+  font-size: 12px;
+}
+
+.coinStore_bottom_rigth_wrap_top_status_text2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.coinStore_bottom_rigth_wrap_top_status_text2 p {
+  font-size: 12px;
+}
+
+@media screen and (max-width:425px) {
+  .coinStore {
+    margin-top: 47.5px;
+  }
+
+  .coinStore_bottom {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .coinStore_bottom_left {
+    width: 100%;
+    border: 0px;
+  }
+
+  .coinStore_bottom_left_top {
+    padding-top: 0px;
+  }
+
+  .coinStore_bottom_left_top_wrap {
+    width: 100%;
+  }
+
+  .coinStore_bottom_left_top_top {
+    width: 95%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: grey; */
+  }
+
+  .coinStore_bottom_left_top_bottom {
+    width: 95%;
+  }
+
+  .coinStore_bottom_left_top_wrap_bottom_button {
+    width: 35px;
+  }
+
+
+  .coinStore_bottom_left_middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .coinStore_bottom_left_middle_wrap {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+  .coinStore_bottom_left_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .coinStore_bottom_left_bottom_wrap {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .coinStore_bottom_left_bottom_P {
+    width: 95%;
+    font-size: 10px;
+  }
+
+  .coinStore_bottom_rigth {
+    width: 100%;
+  }
+
+  .coinStore_bottom_rigth_wrap {
+    width: 95%;
+
+  }
+
+}
+
+@media screen and (max-width:375px) {
+  .coinStore {
+    margin-top: 47.5px;
+  }
+
+  .coinStore_bottom {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .coinStore_bottom_left {
+    width: 100%;
+    border: 0px;
+  }
+
+  .coinStore_bottom_left_top {
+    padding-top: 0px;
+  }
+
+  .coinStore_bottom_left_top_wrap {
+    width: 100%;
+  }
+
+  .coinStore_bottom_left_top_top {
+    width: 95%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: grey; */
+  }
+
+  .coinStore_bottom_left_top_bottom {
+    width: 95%;
+  }
+
+  .coinStore_bottom_left_top_wrap_bottom_button {
+    width: 35px;
+  }
+
+
+  .coinStore_bottom_left_middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .coinStore_bottom_left_middle_wrap {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+  .coinStore_bottom_left_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .coinStore_bottom_left_bottom_wrap {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .coinStore_bottom_left_bottom_P {
+    width: 95%;
+    font-size: 10px;
+  }
+
+  .coinStore_bottom_rigth {
+    width: 100%;
+  }
+
+  .coinStore_bottom_rigth_wrap {
+    width: 95%;
+
+  }
+
+}
+
+@media screen and (max-width:320px) {
+  .coinStore {
+    margin-top: 47.5px;
+  }
+
+  .coinStore_bottom {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .coinStore_bottom_left {
+    width: 100%;
+    border: 0px;
+  }
+
+  .coinStore_bottom_left_top {
+    padding-top: 0px;
+  }
+
+  .coinStore_bottom_left_top_wrap {
+    width: 100%;
+  }
+
+  .coinStore_bottom_left_top_top {
+    width: 95%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: grey; */
+  }
+
+  .coinStore_bottom_left_top_bottom {
+    width: 95%;
+  }
+
+  .coinStore_bottom_left_top_wrap_bottom_button {
+    width: 35px;
+  }
+
+
+  .coinStore_bottom_left_middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .coinStore_bottom_left_middle_wrap {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+  .coinStore_bottom_left_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .coinStore_bottom_left_bottom_wrap {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .coinStore_bottom_left_bottom_P {
+    width: 95%;
+    font-size: 10px;
+  }
+
+  .coinStore_bottom_rigth {
+    width: 100%;
+  }
+
+  .coinStore_bottom_rigth_wrap {
+    width: 95%;
+
+  }
+
 }
