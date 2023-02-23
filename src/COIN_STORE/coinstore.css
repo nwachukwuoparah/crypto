@@ -407,7 +407,6 @@
 
   .coinStore_bottom_left_top {
     padding-top: 0px;
-    font-size: 12px;
   }
 
   .coinStore_bottom_left_top_wrap {
@@ -416,11 +415,11 @@
 
   .coinStore_bottom_left_top_top {
     width: 95%;
-
+    font-size: 12px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-color: grey; */
+    background-color: grey;
   }
 
   .coinStore_bottom_left_top_bottom {
