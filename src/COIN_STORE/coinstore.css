@@ -390,7 +390,7 @@
 
 }
 
-/* @media screen and (max-width:320px) {
+@media screen and (max-width:320px) {
   .coinStore {
     margin-top: 47.5px;
   }
@@ -419,7 +419,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: grey;
+    /* background-color: grey; */
   }
 
   .coinStore_bottom_left_top_bottom {
@@ -470,4 +470,4 @@
 
   }
 
-} */
+}
