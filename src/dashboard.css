@@ -77,6 +77,29 @@
   border-radius: 20px;
 }
 
+@media screen and (max-width:768px) {
+  .Dashboard_left {
+    display: none;
+  }
+
+  .Dashboard_rigth {
+    width: 100%;
+  }
+
+  .Dashboard_rigth_head_contain {
+    font-size: 13px;
+    gap: 6px;
+  }
+
+  .Dashboard_rigth_head {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    backdrop-filter: blur(20px);
+    background: rgba(235, 234, 234, 0.27%);
+  }
+}
+
 @media screen and (max-width:425px) {
   .Dashboard_left {
     display: none;
